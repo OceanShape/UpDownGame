@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var slider: UISlider!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +20,9 @@ class ViewController: UIViewController {
         print(sender.value)
     }
 
+    @IBAction func touchUpHitButton(_ sender: UIButton) {
+        print(slider.value)
+    }
+    
 }
 
