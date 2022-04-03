@@ -19,6 +19,8 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0.0" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="tbU-sK-LC5">
                                 <rect key="frame" x="106" y="192" width="683" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" systemColor="placeholderTextColor"/>
+                                <color key="maximumTrackTintColor" systemColor="placeholderTextColor"/>
                                 <connections>
                                     <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="yi5-bL-sim"/>
                                 </connections>
