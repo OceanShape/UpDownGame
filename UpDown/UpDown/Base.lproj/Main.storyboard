@@ -61,16 +61,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcV-kC-55d">
-                                <rect key="frame" x="434" y="319" width="26" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcV-kC-55d">
+                                <rect key="frame" x="435" y="364" width="26" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTC-LR-Hjw">
-                                <rect key="frame" x="409" y="252" width="77" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTC-LR-Hjw">
+                                <rect key="frame" x="410.5" y="238" width="75.5" height="52.5"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="checkmark.seal.fill" catalog="system" title="">
@@ -97,15 +95,19 @@
                         <color key="backgroundColor" red="0.27292163165827499" green="0.87067090850515461" blue="0.68024489393733134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2cq-eS-msJ"/>
+                            <constraint firstItem="fTC-LR-Hjw" firstAttribute="top" secondItem="tbU-sK-LC5" secondAttribute="bottom" constant="16" id="3EC-xj-m06"/>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5g9-TS-XuD"/>
                             <constraint firstItem="caA-uw-sA5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6xd-dX-YKr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bcV-kC-55d" secondAttribute="bottom" constant="8" id="Bxp-aN-cjk"/>
                             <constraint firstItem="dE0-hn-CD3" firstAttribute="centerY" secondItem="Abr-qf-IFc" secondAttribute="centerY" id="Dvm-V9-cHt"/>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="H6O-0y-5eY"/>
                             <constraint firstItem="dE0-hn-CD3" firstAttribute="leading" secondItem="tbU-sK-LC5" secondAttribute="trailing" constant="16" id="Klq-KP-zcX"/>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="top" secondItem="xAb-c4-QjM" secondAttribute="bottom" constant="16" id="LPA-di-Gkz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dE0-hn-CD3" secondAttribute="trailing" constant="20" id="LSj-4d-NzQ"/>
+                            <constraint firstItem="bcV-kC-55d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Loq-Ae-b7v"/>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="leading" secondItem="Abr-qf-IFc" secondAttribute="trailing" constant="16" id="MlH-Sz-yQP"/>
                             <constraint firstItem="xAb-c4-QjM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RPV-8O-dsZ"/>
+                            <constraint firstItem="fTC-LR-Hjw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SIU-Zb-0WV"/>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="centerY" secondItem="Abr-qf-IFc" secondAttribute="centerY" id="XqW-Sp-Z29"/>
                             <constraint firstItem="tbU-sK-LC5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dTm-GR-XOH"/>
                             <constraint firstItem="Abr-qf-IFc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fum-D1-AIR"/>
