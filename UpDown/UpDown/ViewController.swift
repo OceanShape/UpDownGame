@@ -13,7 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        slider.setThumbImage(#imageLiteral(resourceName: "slider_thumb.png"), for: .normal)
     }
 
     @IBAction func sliderValueChanged(_ sender: UISlider) {
