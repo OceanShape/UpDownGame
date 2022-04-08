@@ -43,12 +43,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAb-c4-QjM">
-                                <rect key="frame" x="440" y="159" width="16" height="17"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abr-qf-IFc">
                                 <rect key="frame" x="64" y="196.5" width="21" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -90,6 +84,12 @@
                                     </preferredSymbolConfiguration>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAb-c4-QjM">
+                                <rect key="frame" x="438" y="158" width="21" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.27292163165827499" green="0.87067090850515461" blue="0.68024489393733134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -119,6 +119,8 @@
                     </view>
                     <connections>
                         <outlet property="slider" destination="tbU-sK-LC5" id="XeW-8N-tLc"/>
+                        <outlet property="sliderValueLabel" destination="xAb-c4-QjM" id="dWH-PT-xL2"/>
+                        <outlet property="tryCountLabel" destination="bcV-kC-55d" id="MXk-BW-Jaf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

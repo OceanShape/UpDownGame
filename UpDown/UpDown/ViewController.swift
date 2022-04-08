@@ -9,7 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var randomValue: Int = 0
+    var tryCount: Int = 0
+    
     @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var tryCountLabel: UILabel!
+    @IBOutlet weak var sliderValueLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
