@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var tryCountLabel: UILabel!
     @IBOutlet weak var sliderValueLabel: UILabel!
+    @IBOutlet weak var minimumValueLabel: UILabel!
+    @IBOutlet weak var maximumValueLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()

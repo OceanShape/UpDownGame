@@ -118,6 +118,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="maximumValueLabel" destination="dE0-hn-CD3" id="Yis-pE-q6R"/>
+                        <outlet property="minimumValueLabel" destination="Abr-qf-IFc" id="J7a-CG-KHU"/>
                         <outlet property="slider" destination="tbU-sK-LC5" id="XeW-8N-tLc"/>
                         <outlet property="sliderValueLabel" destination="xAb-c4-QjM" id="dWH-PT-xL2"/>
                         <outlet property="tryCountLabel" destination="bcV-kC-55d" id="MXk-BW-Jaf"/>
