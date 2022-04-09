@@ -32,10 +32,15 @@ class ViewController: UIViewController {
     
     @IBAction func touchUpHitButton(_ sender: UIButton) {
         print(slider.value)
-        slider.value = Float(Int(slider.value))
+        let hitValue: Int = Int(slider.value)
+        slider.value = Float(hitValue)
         
         tryCount = tryCount + 1
         tryCountLabel.text = "\(tryCount) / 5"
+        
+        if randomValue == hitValue {
+            print("Correct:)")
+        }
     }
     
     @IBAction func touchUpResetButton(_ sender: UIButton) {
@@ -44,6 +49,7 @@ class ViewController: UIViewController {
     
     func reset() {
         randomValue = Int.random(in: 0...30)
+        print(randomValue)
         tryCount = 0
         tryCountLabel.text = "0 / 5"
         slider.minimumValue = 0
