@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         
         if randomValue == hitValue {
             print("Correct:)")
+        } else {
+            if tryCount >= 5 {
+                print("You lose;(")
+            }
         }
     }
     
