@@ -13,6 +13,7 @@
 		F51EBC2C27E772CD00F2A210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51EBC2A27E772CD00F2A210 /* Main.storyboard */; };
 		F51EBC2E27E772CE00F2A210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51EBC2D27E772CE00F2A210 /* Assets.xcassets */; };
 		F51EBC3127E772CE00F2A210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51EBC2F27E772CE00F2A210 /* LaunchScreen.storyboard */; };
+		F5E7436D2802B65400761F69 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E7436C2802B65400761F69 /* CreditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F51EBC2D27E772CE00F2A210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51EBC3027E772CE00F2A210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51EBC3227E772CE00F2A210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E7436C2802B65400761F69 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F51EBC2D27E772CE00F2A210 /* Assets.xcassets */,
 				F51EBC2F27E772CE00F2A210 /* LaunchScreen.storyboard */,
 				F51EBC3227E772CE00F2A210 /* Info.plist */,
+				F5E7436C2802B65400761F69 /* CreditViewController.swift */,
 			);
 			path = UpDown;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				F51EBC2927E772CD00F2A210 /* ViewController.swift in Sources */,
 				F51EBC2527E772CD00F2A210 /* AppDelegate.swift in Sources */,
 				F51EBC2727E772CD00F2A210 /* SceneDelegate.swift in Sources */,
+				F5E7436D2802B65400761F69 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
